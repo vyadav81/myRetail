@@ -3,15 +3,15 @@ This is a RESTful service that provides API to get the product details from an e
 It also provides API to change the price of the product. <br />
 
 *Technologies used:* 
-	Spring boot (v2.1.3.RELEASE)
-	JUnit 4.12 
-	swagger 2.8.0
-	Apache Maven 3.6.0
+	Spring boot (v2.1.3.RELEASE)<br />
+	JUnit 4.12 <br />
+	swagger 2.8.0 <br />
+	Apache Maven 3.6.0 <br />
 	
 *Prerequisites:* 
-	Java 8 
-	Postman 
-	mongodb
+	Java 8 <br />
+	Postman <br />
+	mongodb <br />
 	
 *Execution Procedure:*
    	
@@ -41,14 +41,14 @@ It also provides API to change the price of the product. <br />
     Alternatively use Swagger
 	Enter url http://localhost:8080/swagger-ui.html#/  in browser
 	1.GET Product Details :
-	   a.Open Product-rest-controller
-	   b.Open GET and click try out
-	   c.Enter product id : 13860428 or something else
-	   d.Click execute
-	   e.You can verify the result in response body
+		a.Open Product-rest-controller
+	   	b.Open GET and click try out
+	   	c.Enter product id : 13860428 or something else
+	   	d.Click execute
+	   	e.You can verify the result in response body
 	2.PUT product price			
-	   a.Under Product-rest-controller click PUT method and click try out
-	   b.Enter product Id and copy response from previous call and patse in product detail. 
+	   	a.Under Product-rest-controller click PUT method and click try out
+	   	b.Enter product Id and copy response from previous call and patse in product detail. 
 		{
 			"id": 13860428,
 			"name": "The Big Lebowski (Blu-ray)",
@@ -57,8 +57,8 @@ It also provides API to change the price of the product. <br />
 				"currency_code": "USD"
 			}
 		}
-	   c.Click Execute  button
-	   d.Call GET API to see if changes are reflecting fine.
+	   	c.Click Execute  button
+	   	d.Call GET API to see if changes are reflecting fine.
 Note:If you hit http://localhost:8080/product/13860428/price --> you will get price info for productId
          		
   		
